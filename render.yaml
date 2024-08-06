@@ -1,0 +1,41 @@
+services:
+  - type: web
+    name: levanter
+    runtime: docker
+    branch: master
+    repo: 'https://github.com/OwnerCO/X-Asena.git'
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: SUDO
+        value: '51978194933'
+      - key: PREFIX
+        value: '!'
+      - key: STICKER_PACKNAME
+        value: '𝗦𝗬𝗦𝗦𝗢𝗟𝗨𝗧𝗜𝗢𝗡𝗦 || 𝟮𝟬𝟮𝟰'
+      - key: RMBG_KEY
+        value: 'pAEkGzSxvowgynjmdC2B59nY'
+      - key: WARN_LIMIT
+        value: '2'
+      - key: LIST_TYPE
+        value: 'text'
+      - key: BING_COOKIE
+        value: 'null'
+      - key: GEMINI_API_KEY
+        value: 'null'
+      - key: RENDER_NAME
+        value: 'OwnerCO'
+      - key: RENDER_API_KEY
+        value: 'rnd_mmRcVTmpYJuqJ8DaZMtlrQfDVNZi'
+      - key: ANTI_DELETE
+        value: 'on'
+      - key: AUTO_STATUS_VIEW
+        value: 'true'
+      - key: SEND_READ
+        value: 'true'
+      - key: SESSION_ID
+        value: '4_8_fe2e_b5d6_6696'
+      - key: PORT
+        value: '3000'
+      - key: DATABASE_URL
+        value: 'postgresql://anytamdonline_user:OQoKV0bf1YMSEoLZqBk2LbKwQFhcBOjZ@dpg-cqmj9l3v2p9s73ek96dg-a.oregon-postgres.render.com/anytamdonline'
